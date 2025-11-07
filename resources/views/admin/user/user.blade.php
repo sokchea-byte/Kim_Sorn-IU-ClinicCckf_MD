@@ -22,7 +22,7 @@
                     {{-- table categories List --}}
                     <div class="card shadow">
                         <div class="card-body">
-                            <h5 class="card-title">Medicine Categories List</h5>
+                            <h5 class="card-title">Medicine User List</h5>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                     {{-- Form to add new category --}}
                     <div class="card shadow">
                         <div class="card-body">
-                            <h5 class="card-title">Add Medicine New Category</h5>
+                            <h5 class="card-title">Add Medicine New User</h5>
                             <form action="{{ route('user.profile.update') }}" method="POST" enctype="multipart/form-data">
                                 @csrf
 
